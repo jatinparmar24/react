@@ -1,0 +1,6 @@
+1 = event are called actions
+2 = not call function with ()parenthesis
+3 = if we need to change anything in ui(user interface) =useState 
+4 = we have hook in useState 
+5 = it is a special function which return array in destructure form
+6 = synstax = let[variable,function]=useState(initial state/initial value)
