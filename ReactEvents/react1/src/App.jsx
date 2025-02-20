@@ -5,6 +5,7 @@ import UseState from './UseState'
 import Inc from './Inc'
 import State from './Component/State'
 import Bg from './Component/Bg'
+import Plus from './Component/Plus'
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Inc/>
         <State/>
         <Bg/>
+        <Plus/>
 
     </>
   )

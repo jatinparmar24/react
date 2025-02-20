@@ -33,7 +33,30 @@ function Bg(){
 
                 
                 {/* <h1>Don't Use The Mobile</h1> */}
-                  <button onClick={()=>sethide(false)}>Hide</button>
+                  {/* <button onClick={()=>sethide(false)}>Hide</button>
+                  <button onClick={()=>sethide(true)}>Show</button> */}
+
+                  {/* do with one button = toggle */}
+
+                  {/* <button onClick={()=>sethide(!hide)}>Hide</button> */}
+
+                  {/* to cg=hange the name of button in innerhtml */}
+
+                  {/* {hide ?<button onClick={()=>sethide(!hide)}>Hide</button> : <button onClick={()=>sethide(!hide)}>Show</button>  } */}
+                  
+                          {/* both works */}
+
+                  <button onClick={()=>sethide(!hide)}>
+                    {   hide ? "Hide":"Show"}
+
+
+                  </button>
+
+
+
+
+
+
 
             </div>
        
