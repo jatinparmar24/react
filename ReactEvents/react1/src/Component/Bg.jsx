@@ -40,7 +40,7 @@ function Bg(){
 
                   {/* <button onClick={()=>sethide(!hide)}>Hide</button> */}
 
-                  {/* to cg=hange the name of button in innerhtml */}
+                  {/* to change the name of button in innerhtml */}
 
                   {/* {hide ?<button onClick={()=>sethide(!hide)}>Hide</button> : <button onClick={()=>sethide(!hide)}>Show</button>  } */}
                   

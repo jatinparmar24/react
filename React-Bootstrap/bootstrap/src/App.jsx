@@ -50,7 +50,7 @@ function App() {
       <Button>Bootstrap Button</Button>
 
       <Container>
-        <h2>This is ontainer</h2>
+        <h2>This is Container</h2>
       </Container>
 
       <Container fluid>
