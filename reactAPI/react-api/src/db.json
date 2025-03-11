@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "name": "raj",
+      "age": 30,
+      "city": "bhopal",
+      "contact": 2373526298,
+      "id": "723b"
+    },
+    {
+      "id": "6e83",
+      "name": "himanshu",
+      "age": "31",
+      "city": "rewa",
+      "contact": "365985632524"
+    },
+    {
+      "id": "7661",
+      "name": "vijay",
+      "age": "28",
+      "city": "dewas",
+      "contact": "5236598745"
+    },
+    {
+      "id": "5ead",
+      "name": "jatin",
+      "age": "25",
+      "city": "sehore",
+      "contact": "6587458965"
+    }
+  ]
+}

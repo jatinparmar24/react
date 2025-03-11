@@ -19,9 +19,6 @@ function App() {
        <Route index element={<Oneusestate/>}/>
        <Route path='/login' element={<Login/>}/>
        <Route path='/form' element={<Form/>}/>
-       
-
-
     </Routes>
     
     
