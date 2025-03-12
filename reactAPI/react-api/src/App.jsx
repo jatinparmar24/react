@@ -5,6 +5,8 @@ import './App.css'
 import Jsondata from './jsondata'
 
 
+
+
 function App() {
 
   // let[datas,setdata]=useState([])
@@ -46,6 +48,7 @@ function App() {
         </table> */}
 
         <Jsondata/>
+       
     </>
   )
 }

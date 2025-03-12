@@ -35,8 +35,8 @@ function Jsondata(){
     function loginsub(e){
         e.preventDefault()
         axios.post('http://localhost:3000/students',insertdata)
-        .then(res=>{console.log(res.data)}
-        )
+        .then(res=>{console.log(res.data)})
+        
         .then(res=>alert("Data Inserted"))
     }
     
@@ -74,6 +74,7 @@ function Jsondata(){
                     <th>City</th>
                     <th>Contact</th>
                     <th>Delete</th>
+                    <th>Edit</th>
                 </tr>
             </thead>
 
@@ -95,7 +96,7 @@ function Jsondata(){
                     <td>{e.city}</td>
                     <td>{e.contact}</td>
                     <td><button onClick={()=>del(e.id)} style={{backgroundColor:"red",color:"white"}}>Delete</button></td>
-                    <td><button onClick={(setform(true),seteditdata(e))}>Edit</button></td>
+                    <td><button onClick={()=>(setform(true),seteditdata(e))}>Edit</button></td>
                 </tr>
                </>})}
             </tbody>
