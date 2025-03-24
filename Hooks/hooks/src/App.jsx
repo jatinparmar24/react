@@ -23,7 +23,7 @@ useEffect(()=>{
   alert("useEffect working ..!!!!!!")
 },[color,sum])
 
-// if we leave dependiciy empty alert works only one time
+// if we leave dependency empty alert works only one time
 // like we give color to dependencie it works when we update color and it works every time
 
 

@@ -49,7 +49,6 @@ function Bg(){
                   <button onClick={()=>sethide(!hide)}>
                     {   hide ? "Hide":"Show"}
 
-
                   </button>
 
 

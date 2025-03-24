@@ -131,13 +131,13 @@ function Jsondata(){
             <input type="text" onChange={insertname} name="name"/> <br /> <br /> <br />
 
             <label htmlFor="">Age</label>:-
-            <input type="text" onChange={insertname} name="age"/> <br /> <br /> <br />
+            <input type="number" onChange={insertname} name="age"/> <br /> <br /> <br />
 
             <label htmlFor="">City</label>:-
             <input type="text" onChange={insertname} name="city"/> <br /> <br /> <br />
 
             <label htmlFor="">Contact</label>:-
-            <input type="text" onChange={insertname} name="contact"/> <br /><br /> <br />
+            <input type="number" onChange={insertname} name="contact"/> <br /><br /> <br />
 
             <input type="submit" />
         </form>
