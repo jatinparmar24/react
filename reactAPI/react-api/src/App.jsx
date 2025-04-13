@@ -3,6 +3,7 @@
 import './App.css'
 // import axios from "axios"
 import Jsondata from './jsondata'
+import Section from './Section'
 
 
 
@@ -48,6 +49,7 @@ function App() {
         </table> */}
 
         <Jsondata/>
+        <Section/>
        
     </>
   )

@@ -1,6 +1,6 @@
 
 import React from "react";
-import Compo3 from "./Compo3";
+// import Compo3 from "./Compo3";
 
 function Compo2(){
     return(
