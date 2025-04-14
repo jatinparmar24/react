@@ -66,13 +66,53 @@
 .maindiv1{
     border-top-right-radius: 120px;
     border-bottom-left-radius: 120px;
-    transform: rotate(-10deg);
+    transform: rotate(-1deg);
     box-shadow: 2px 5px 5px black , -2px -2px 5px black;
+    line-height: 30px;
+}
+
+.maindiv1 form {
+ margin-top: 15%;
+ margin-inline-start: 25%;
+}
+
+.maindiv1 form label{
+    font-size: 25px;
+}
+
+.maindiv1 form input{
+    width: 200px;
+    height: 30px;
+    border-top-right-radius: 30px;
 }
 
 .maindiv2{
     border-top-left-radius: 120px;
     border-bottom-right-radius: 120px;
-    transform: rotate(10deg);
+    transform: rotate(1deg);
     box-shadow: 2px 5px 5px black , -2px -2px 5px black;
+    line-height: 40px;
+}
+
+.maindiv2 h1{
+ margin-left: 30%;
+ margin-top: 5%;
+ font-size: 30px;
+ color: sandybrown;
+}
+
+.maindiv2 h2{
+    margin-left: 34%;
+    margin-top: 5%;
+    font-size: 28px;
+    color: tomato;
+}
+
+.maindiv2 p{
+    margin-top: 5%;
+    line-height: 40px;
+    font-size: 20px;
+    color: maroon;
+    margin-left: 4%;
+    margin-right: 2%;
 }
