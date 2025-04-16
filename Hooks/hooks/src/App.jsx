@@ -11,11 +11,13 @@ let[color,setColor]=useState('cyan')
 let[sum,setSum]=useState(0)
 
 function incre(){
+  // setSum(sum++)
   setSum(sum+1)
 }
 
 function decre(){
   if(sum!=0){
+    // setSum(sum--)
     setSum(sum-1)
   }
 }
@@ -31,12 +33,13 @@ useEffect(()=>{
     <>
          <div style={{height:"100vh", backgroundColor:color}}>
 
-         <h1>Welcome</h1>
+         <h1>BackGround-Color Changes</h1>
          <button onClick={()=>setColor('red')}> Change To Red</button> <br /> <br />
          <button onClick={()=>setColor('yellow')}>Change To Yellow</button> <br /> <br /> 
          <button onClick={()=>setColor('lightgreen')}>Change To Lightgreen</button> <br /> <br /> 
          <button onClick={()=>setColor('orange')}>Change To Orange</button> <br /> <br /> 
          <button onClick={()=>setColor('darkblue')}>Change To Darkblue</button> <br /> <br /> 
+         <button onClick={()=>setColor('orangered')}>Change To Darkblue</button> <br /> <br /> 
 
 
 

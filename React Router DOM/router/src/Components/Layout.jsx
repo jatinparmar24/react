@@ -10,6 +10,8 @@ function Layout(){
                 <li><Link to='/' style={{textDecoration:'none' ,color:'white',fontSize:"25px"}}>Home</Link ></li>
                 <li><Link to='about' style={{textDecoration:'none' ,color:'white',fontSize:"25px"}}>About</Link></li>
                 <li><Link to='services' style={{textDecoration:'none' ,color:'white',fontSize:"25px"}}>Services</Link></li>
+                <li><Link to='terms/'  style={{textDecoration:'none' ,color:'white',fontSize:"25px"}}>Terms</Link></li>
+
             </ul>
         </nav>
         
