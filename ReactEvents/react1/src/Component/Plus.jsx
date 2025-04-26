@@ -6,7 +6,8 @@ function Plus(){
     let [Plise,setPlise]=useState(0)
 
     function Plse(){
-        setPlise(Plise+1)
+        // setPlise(Plise+1)
+        setPlise(Plise++) // to work on double click
     }
 
 

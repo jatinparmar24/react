@@ -14,6 +14,10 @@ let Navbar=()=>{
                <li>Home</li>
                <l1>About</l1>
                <l1>Contact</l1>
+               <l1>Services</l1>
+               <l1>Terms</l1>
+               
+
            </ul>
            <FaHome />
            </nav>

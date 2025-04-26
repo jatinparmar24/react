@@ -20,9 +20,11 @@ function Bg(){
             <button onClick={()=>setbgcolor('red')}>Red</button> <br /> <br />
             <button onClick={()=>setbgcolor('cyan')}>Cyan</button> <br /> <br />
             <button onClick={()=>setbgcolor('black')}>Black</button> <br /> <br />
-            <button onClick={()=>setbgcolor('orange')}>orange</button> <br /> <br />
-            <button onClick={()=>setbgcolor('lightskyblue')}>lightskyblue</button> <br /> <br />
+            <button onClick={()=>setbgcolor('orange')}>Orange</button> <br /> <br />
+            <button onClick={()=>setbgcolor('lightskyblue')}>Lightskyblue</button> <br /> <br />
             <button onClick={()=>setbgcolor('yellow')}>Yellow</button> <br /> <br />
+            <button onClick={()=>setbgcolor('green')}>Green</button> <br /> <br />
+            <button onClick={()=>setbgcolor('darkblue')}>Darkblue</button> 
 
 
 
