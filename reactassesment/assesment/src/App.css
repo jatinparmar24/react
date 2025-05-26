@@ -1,0 +1,55 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.section {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  margin: 0.5rem 0.5rem 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  background-color: #f44336;
+  padding: 0.2rem 0.5rem;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin: 0.5rem 0;
+  background-color: #e0e0e0;
+  padding: 0.7rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-list li.deleted {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #f5f5f5;
+}
