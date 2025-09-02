@@ -1,0 +1,27 @@
+.pokemon-card {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  background: #fff;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+  border-color: #ff9900;
+}
+
+.pokemon-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.selected {
+  border-color: #ff3300;
+  box-shadow: 0 0 10px rgba(255, 51, 0, 0.6);
+}

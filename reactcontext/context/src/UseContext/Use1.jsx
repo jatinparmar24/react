@@ -13,7 +13,7 @@ function Use1(){
 
         <h1>This is with useContext hook</h1>
 
-    <seconddata.Provider value={{city,object}}>
+        <seconddata.Provider value={{city,object}}>
             <Use2/>
         </seconddata.Provider>
 

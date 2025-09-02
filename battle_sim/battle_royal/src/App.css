@@ -1,0 +1,58 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.selection-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.card {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 180px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img.sprite {
+  width: 120px;
+  height: 120px;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.small-sprite {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+.next-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff4757;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

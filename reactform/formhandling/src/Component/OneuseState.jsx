@@ -25,7 +25,7 @@ function Oneusestate(){
         // localStorage.setItem("password",formdata.password)
         loginpage('/login')
         
-    }
+    } 
 
 
 

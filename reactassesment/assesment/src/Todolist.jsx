@@ -7,10 +7,17 @@ function Todolist() {
   const [tasks, setTasks] = useState([]);             // store every task as an object that we store
 
   // Load tasks from localStorage on mount
+  // Fallback to an empty array if there's no data in localStorage
   useEffect(() => {
-    const stored = JSON.parse(localStorage.getItem('tasks')) || [];
+    try {
+    const stored = JSON.parse(localStorage.getItem('tasks')) || []; // Fallback to an empty array if there's no data in localStorage
     setTasks(stored);
+  } catch (err) {
+    console.error('Failed to parse tasks from localStorage:', err);
+    setTasks([]);
+  }
   }, []);
+
 
   // Save tasks to localStorage when tasks update
   useEffect(() => {
