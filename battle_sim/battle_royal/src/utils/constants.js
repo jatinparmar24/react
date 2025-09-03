@@ -11,8 +11,8 @@ export const MEGA_POKEMON = [
 
 // 2. Final evolution Pokémon
 export const FINAL_POKEMON = [
-  "dragonite", "garchomp", "tyranitar",
-  "salamence", "metagross", "infernape",
+  "dragonite", "garchomp",
+  "infernape",
   "empoleon", "torterra", "serperior",
   "emboar", "samurott", "delphox",
   "greninja", "chesnaught", "decidueye",
